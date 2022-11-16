@@ -1,0 +1,47 @@
+:root{
+    --primary-color: #EE4D2D;
+    --white-color: #fff;
+    --black-color:#000;
+    --star-gold-color:#ffce3e;
+    --text-color:#333;
+    --border-color:#dbdbdb;
+}
+.margin-bottom12{
+    margin-bottom: 12px;
+}
+.border-productII{
+    position: relative;
+    border: 2px solid #0E0E0E;
+    width: 100%;
+    border-radius: 3px;
+    box-shadow: 0 1px 0px #868383;
+}
+*{
+    box-sizing: inherit;
+}
+html{
+    /*  HACK */
+    font-size: 62.5%;
+    /* nếu để 100% thì 1rem = 16px , nếu chọn font-size:12px thì chia ra nữa , sẽ khó khắn , nên dùng 62,5%
+    , => 1rem = 10px => 12px = 1.2rem */
+    line-height: 1.6rem;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: #282828;
+}
+.pd-20px{
+    padding:8px 0px 4px 0px;
+}
+.background{
+    background: #4f4e52
+}
+.product-color{
+    color: #44e2ff;
+}
+
+
+
+
